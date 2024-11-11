@@ -11,3 +11,5 @@
 [Tarea Nº5](TAREA_5/lenguajes_de_marcas_en_la_web.html)
 
 [Tarea Nº6](TAREA_6/formulario.html)
+
+[Tarea Nº7](TAREA_7/pilares_web.html)
