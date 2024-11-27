@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML semántico</title>
-</head>
-<body>
-    <header><h2>Esta es la cabecera de la página</h2></header>
-    <a>
-        <a href="../TAREA_1/sobre_mi.html">Sobre mí</a><br />
-        <a href="../TAREA_3/listas.html">Listas</a><br />
-        <a href="../TAREA_4/tablas.html">Tablas</a><br />
-        <a href="../TAREA_5/lenguajes_de_marcas_en_la_web.html">Lenguajes de marcas en la Web</a><br />
-        <a href="../TAREA_6/formulario.html">Formulario</a><br />   
-        <a href="../TAREA_7/pilares_web.html">Pilares web</a><br />
-        <a href="../TAREA_8/HTML_Y_CSS.html">Pilares web</a><br />
+  <head>
+    <meta charset="utf-8" />
+    <title>Desarrollo web estático</title>
+    <style>
+      /* Estado normal de los enlaces */
+      a {
+        color: rgb(34, 10, 141);
+        text-decoration: none;
+      }
+
+      /* Cuando el usuario sitúa el cursor del ratón sobre el enlace */
+      a:hover {
+        color: rgb(32, 9, 136);
+        background-color: rgb(125, 123, 131);
+        text-decoration: underline;
+      }
+
+      /* Cuando el enlace está activo */
+      a:active {
+        color: orange;
+        text-decoration: none;
+      }
+
+      /* Cuando el enlace ha sido visitado */
+      a:visited {
+        color: darkgreen;
+        text-decoration: none;
+      }
+
+      /* Cuando el enlace tiene el foco del teclado */
+      a:focus {
+        color: blue;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png"
+        width="100"
+      />
+      <h1>Desarrollo web estático con HTML y CSS</h1>
+    </header>
+    <nav>
+      <a href="../TAREA_1/sobre_mi.html">Sobre mí</a><br />
+      <a href="../TAREA_3/listas.html">Listas</a><br />
+      <a href="../TAREA_4/tablas.html">Horario</a><br />
+      <a href="../TAREA_5/lenguajes_de_marcas_en_la_web.html">Lenguajes de marcas en la Web</a><br />
+      <a href="../TAREA_6/formulario.html">Formulario registro</a><br />
+      <a href="../TAREA_7/pilares_web.html">Enlaces</a><br />
+      <a href="../TAREA_8/HTML_Y_CSS.html">CSS (I)</a><br />
+      <a href="../TAREA_9/HTML_Y_CSS_2.html">CSS (II)</a><br />
     </nav>
-    <section>
-        <article>Este es un <strong>artículo</strong> dentro de una sección</article>
-        <article>Este es un <strong>artículo</strong> dentro de una sección</article>
-        <article>Este es un <strong>artículo</strong> dentro de una sección</article>
-    </section>
-    <aside>Este apartado está reservado para las noticias usando <em>"aside"</em></aside>
-    <footer>
-        <p>Este es el pie de la página</p>
-        <p><strong>Copyright © 2024 - 2028 Reservados todos los derechos</strong></p>
-    </footer>
-</body>
+    <section></section>
+    <aside></aside>
+    <footer></footer>
+  </body>
 </html>
